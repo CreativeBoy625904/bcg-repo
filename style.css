@@ -276,6 +276,7 @@
     margin-top: 7px;
     padding: 10px 14px;
     font-size: 16px;
+    border-radius: 30px;
     font-weight: 200;
     background-color: tomato;
     color: white;
@@ -343,5 +344,133 @@
     width: 567px;
     height: 427px;
 
+
+}
+
+
+/* ..............--------------------------extra unit tests------------------------ */
+
+.extra-full-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    gap: 30px;
+    margin-top: 80px;
+
+
+}
+
+.extra-detail {
+    padding: 10px 15px;
+    width: 330px;
+    height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.extra-detail video {
+    width: 300px;
+    height: 256px;
+    background: url(<path-to-image>), rgba(211, 211, 211, 0.205);
+
+}
+
+.extra-detail h1 {
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.extra-detail p {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.extra-detail button {
+    margin-top: 7px;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: tomato;
+    color: white;
+    transition: 5s all ease;
+    cursor: pointer;
+}
+
+.extra-detail button:hover {
+    background-color: blueviolet;
+    transition: .5s all ease;
+}
+
+
+
+
+
+
+
+
+
+
+/* < !--===========------------------finishing unit------------------------- --> */
+
+#finishing {
+    margin-top: 158px;
+}
+
+.full-body-footer {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ----------------------------logo unit-------------- */
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-icon a {
+    font-size: 20px;
+}
+
+.left {
+    padding-left: 44px;
+}
+
+
+
+
+
+/* finishing text */
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.text h2 {
+    color: #000;
+
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 
 }
