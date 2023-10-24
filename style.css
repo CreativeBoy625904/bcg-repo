@@ -19,6 +19,82 @@
     width: 1460px;
     margin: 0 auto;
 }
+ /* -------------------from section------------------ */
+  
+ 
+
+.start h1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+}
+
+.start h3 {
+    font-family: fantasy;
+    color: gray;
+}
+
+.start form label {
+    font-size: 40px;
+    font-family: poppins;
+    color: black;
+}
+
+.start form input {
+
+    padding: 10px 180px;
+    font-size: 20px;
+
+}
+.start h3 a{
+    margin-left: 19px;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(141, 20, 4);
+    font-size: 25px;
+}
+button:hover{
+    background-color: tomato;
+    transition: .5s all ease;
+    color: #000;
+}
+
+
+.pic img{
+    height: 500px;
+    width: 600px;
+}
+
+.start {
+    display: inline-block;
+    padding: 12px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 200px 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+#from {
+
+  background-color: rgb(133, 91, 12);
+
+
+}
+
+
+
 
 
 
@@ -156,7 +232,7 @@
     font-family: sans-serif;
     font-size: 64px;
     font-weight: 700;
-    color: wh;
+    color:white;
 
 
 }
@@ -359,6 +435,26 @@
 
 
 /* ..............--------------------------extra unit tests------------------------ */
+.marque marquee{
+    font-family:sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    color: aqua;
+
+}
+.marque marquee span{
+    font-family: poppins;
+        font-size: 56px;
+        font-weight: 800;
+        color: black;
+}
+
+
+
+
+
+
+
 
 .extra-full-body {
     display: grid;
