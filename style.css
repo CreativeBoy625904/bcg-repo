@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    
 
 }
 
@@ -78,19 +81,20 @@
     text-align: center;
 }
 
-.right-text-btn a {
+.btn a {
     color: black;
 }
 
-.right-text-btn button {
-    padding: 10px 15px;
+.btn button {
+    padding: 10px 13px;
+    text-decoration: none;
 
     background-color: #c90c51;
     cursor: pointer;
     transition: 5s all ease;
 }
 
-.right-text-btn button:hover {
+.btn button:hover {
     background-color: tomato;
     transition: .5s all ease;
     color: white;
@@ -113,6 +117,9 @@
 .right-text a i {
     padding-right: 8px;
 }
+
+
+
 
 /* ----------------------------------------------------starting cornabol-------------- */
 
@@ -159,6 +166,8 @@
 }
 
 .btn button {
+    border-radius: 30px;
+    margin-top: 9px;
     background-color: #c90c51;
     transition: 5s all ease;
 
@@ -273,6 +282,7 @@
 
 
 .one button {
+    
     margin-top: 7px;
     padding: 10px 14px;
     font-size: 16px;
@@ -395,6 +405,7 @@
 .extra-detail button {
     margin-top: 7px;
     padding: 10px 14px;
+    border-radius: 30px;
     font-size: 16px;
     font-weight: 200;
     background-color: tomato;
