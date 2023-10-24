@@ -1,84 +1,295 @@
-.body h1{
-    color: red;
-    transition: 13s all ease;
-}
-#main{
-    background-image:linear-gradient(to left top, rgba(0, 0, 255, 0.651), rgba(255, 0, 0, 0.527)), url(./image/download\ \(1\).jpg);
-    /* height: 900px; */
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
 }
 
-.body p{
-    width: 600px;
-color:white;
-margin: 10px 0px;
+.container {
+    width: 1160px;
+    margin: 0 auto;
 }
 
-.fix{width: 100%;
-    height: 100%;
+.containr {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ------------------------------------------starting header section-- ----------- */
+#head {
+    background-color: #2D25A0;
+    padding-bottom: 70px;
+}
+
+.full-head-body {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    justify-content: space-between;
+    padding-top: 50px;
+
 
 }
 
-.body{
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    padding: 20px 20px;
+
+
+
+
+
+
+
+
+
+
+/* left-head-body */
+.left-head-body {
+    width: 587px;
+
+
+}
+
+.left-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-text a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500px;
+
+}
+
+/* -----------------------right-head-body----------------------- */
+
+
+.right-head-body {
+    display: flex;
+    align-items: center;
+
     text-align: center;
 }
-.body button{
-    padding: 15px 20px;
-    background: linear-gradient(to right, #6a3093, #a044ff);
-    border: none;
+
+.right-text-btn a {
+    color: black;
+}
+
+.right-text-btn button {
+    padding: 10px 15px;
+
+    background-color: #c90c51;
     cursor: pointer;
-        transition: 13s all ease;
-    
-
+    transition: 5s all ease;
 }
-.dg marquee{
-    font-size: 50px; 
-    font-family: cursive;
-    font-weight: bolder;
-    margin-top: 100px;
+
+.right-text-btn button:hover {
+    background-color: tomato;
+    transition: .5s all ease;
     color: white;
-    transition: 10s all ease;
 
 }
-.dg span{
-    margin-left: 250px;
-    color: aliceblue;
-    transition: 13s all ease;
-   
+
+
+
+
+
+.right-text a {
+    color: white;
+
+    height: 24px;
+    width: 24px;
+
+    text-decoration: none;
 }
-.dg marquee:hover{color: darkgreen;
-    transition: 10s all ease;
+
+.right-text a i {
+    padding-right: 8px;
 }
-.dg marquee span:hover{
- 
-    color: maroon;
-    transition: 13s all ease;
-}
-.body h1:hover{
-    color: cornsilk;
-    transition: 13s all ease;
-}
-.body button:hover{
-    color: aqua;
-    background-color: darkgrey;
-    transition: 13s all ease;
-}
-#lg{
-    font-size: 80px ;
-    color: aliceblue;
-    justify-content:space-between;
-}
-.dn{
+
+/* ----------------------------------------------------starting cornabol-------------- */
+
+
+
+
+.cornabol-all-detail {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 170px;
+
 }
-.ld{
-    margin: 0 18px ;
+
+
+
+
+
+
+
+
+
+
+/* .cornabol-left-side */
+
+.cornabol-left-side {
+    width: 485px;
+    height: 230px;
+
+}
+
+
+.cornabol-text h1 {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: wh;
+
+
+}
+
+.btn button a {
+    color: white;
+}
+
+.btn button {
+    background-color: #c90c51;
+    transition: 5s all ease;
+
+}
+
+.btn button:hover {
+    background-color: tomato;
+    transition: .5s all ease;
+
+}
+
+
+/* --------------------------cornabol right side----------------- */
+
+.cornabol-right-side {
+
+    height: 438px;
+
+}
+
+.cornabol-img-one {
+    position: relative;
+}
+
+.img-two {
+    position: absolute;
+    top: 20px;
+    left: -120px;
+}
+
+.img-two::before {
+    animation: skill 6s infinite ease-in;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: -100px;
+}
+
+.img-two::after {
+    animation: skill 6s infinite ease-in;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100px;
+}
+
+
+@keyframes skill {
+    from {
+        top: 0%;
+        right: -100px
+    }
+
+    to {
+        top: 0;
+        left: -200px;
+    }
+}
+
+
+/* < !-- --------------------second chapter card starting------------------------ --> */
+
+
+
+
+.all-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    gap: 30px;
+    margin-top: 80px;
+
+
+}
+
+.one {
+    padding: 10px 15px;
+    width: 330px;
+    height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.one img {
+    width: 300px;
+    height: 256px;
+    background: url(<path-to-image>), rgba(211, 211, 211, 0.205);
+
+}
+
+.one h1 {
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.one p {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+
+.one button {
+    margin-top: 7px;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: 200;
+    background-color: tomato;
+    color: white;
+    transition: 5s all ease;
+    cursor: pointer;
+}
+
+.one button:hover {
+    background-color: blueviolet;
+    transition: .5s all ease;
+
+}
+
+.im img {
+    height: 500px;
+    width: 500px;
 }
